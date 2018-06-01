@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\research_8\research_8\bin\Release\research_8.exe.config
+C:\Users\User\source\repos\research_8\research_8\bin\Release\research_8.exe
+C:\Users\User\source\repos\research_8\research_8\bin\Release\research_8.pdb
+C:\Users\User\source\repos\research_8\research_8\obj\Release\research_8.Form1.resources
+C:\Users\User\source\repos\research_8\research_8\obj\Release\research_8.Properties.Resources.resources
+C:\Users\User\source\repos\research_8\research_8\obj\Release\research_8.csproj.GenerateResource.Cache
+C:\Users\User\source\repos\research_8\research_8\obj\Release\research_8.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\research_8\research_8\obj\Release\research_8.exe
+C:\Users\User\source\repos\research_8\research_8\obj\Release\research_8.pdb
