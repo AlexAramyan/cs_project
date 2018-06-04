@@ -48,3 +48,13 @@ C:\Users\zigzag\Desktop\research\research_8\research_8\research_8\obj\Debug\rese
 C:\Users\zigzag\Desktop\research\research_8\research_8\research_8\obj\Debug\research_8.csproj.CoreCompileInputs.cache
 C:\Users\zigzag\Desktop\research\research_8\research_8\research_8\obj\Debug\research_8.exe
 C:\Users\zigzag\Desktop\research\research_8\research_8\research_8\obj\Debug\research_8.pdb
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\bin\Debug\research_8.exe.config
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\bin\Debug\research_8.exe
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\bin\Debug\research_8.pdb
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\obj\Debug\research_8.csprojResolveAssemblyReference.cache
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\obj\Debug\research_8.Form1.resources
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\obj\Debug\research_8.Properties.Resources.resources
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\obj\Debug\research_8.csproj.GenerateResource.Cache
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\obj\Debug\research_8.csproj.CoreCompileInputs.cache
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\obj\Debug\research_8.exe
+C:\Users\zigzag\Desktop\research\research_8\cs_project\research_8\research_8\obj\Debug\research_8.pdb

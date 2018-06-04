@@ -372,32 +372,126 @@ namespace research_8
         
         private void btnBin_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(txtDisplay.Text);
-            txtDisplay.Text = System.Convert.ToString(a,2);
+            if (decNum)
+            {
+                int a = int.Parse(txtDisplay.Text);
+                txtDisplay.Text = System.Convert.ToString(a,2);
+            }
+            else if (hexNum)
+            {
+                int a = Convert.ToInt32(txtDisplay.Text, 16);
+                txtDisplay.Text = System.Convert.ToString(a, 2);
+            }
+
+            else if (octNum)
+            {
+                int a = Convert.ToInt32(txtDisplay.Text, 8);
+                txtDisplay.Text = System.Convert.ToString(a, 2);
+            }
+
             decNum = false;
             hexNum = false;
             octNum = false;
             binNum = true;
+
+            if (decNum)
+            {
+                lblShowBase.Text = "Dec";
+            }
+            else if (binNum)
+            {
+                lblShowBase.Text = "Bin";
+            }
+            else if (octNum)
+            {
+                lblShowBase.Text = "Oct";
+            }
+            else if (hexNum)
+            {
+                lblShowBase.Text = "Hex";
+            }
         }
 
         private void btnHex_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(txtDisplay.Text);
-            txtDisplay.Text = System.Convert.ToString(a, 16);
+            if (decNum)
+            {
+                int a = int.Parse(txtDisplay.Text);
+                txtDisplay.Text = System.Convert.ToString(a, 16);
+            }
+            else if (binNum)
+            {
+                int a = Convert.ToInt32(txtDisplay.Text, 2);
+                txtDisplay.Text = System.Convert.ToString(a, 16);
+            }
+            else if (octNum)
+            {
+                int a = Convert.ToInt32(txtDisplay.Text, 8);
+                txtDisplay.Text = System.Convert.ToString(a, 16);
+            }
+
             decNum = false;
             hexNum = true;
             octNum = false;
             binNum = false;
+
+            if (decNum)
+            {
+                lblShowBase.Text = "Dec";
+            }
+            else if (binNum)
+            {
+                lblShowBase.Text = "Bin";
+            }
+            else if (octNum)
+            {
+                lblShowBase.Text = "Oct";
+            }
+            else if (hexNum)
+            {
+                lblShowBase.Text = "Hex";
+            }
         }
 
         private void btnOct_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(txtDisplay.Text);
-            txtDisplay.Text = System.Convert.ToString(a, 8);
+            if (decNum)
+            {
+                txtDisplay.Text = System.Convert.ToString(int.Parse(txtDisplay.Text), 8);
+            }
+            else if (binNum)
+            {
+                int a = Convert.ToInt32(txtDisplay.Text, 2);
+                txtDisplay.Text = System.Convert.ToString(a, 8);
+            }
+
+            else if (hexNum)
+            {
+                int number = int.Parse(txtDisplay.Text, System.Globalization.NumberStyles.HexNumber);
+                txtDisplay.Text = System.Convert.ToString(number);
+            }
+
             decNum = false;
             hexNum = false;
             octNum = true;
             binNum = false;
+
+            if (decNum)
+            {
+                lblShowBase.Text = "Dec";
+            }
+            else if (binNum)
+            {
+                lblShowBase.Text = "Bin";
+            }
+            else if (octNum)
+            {
+                lblShowBase.Text = "Oct";
+            }
+            else if (hexNum)
+            {
+                lblShowBase.Text = "Hex";
+            }
         }
 
         private void btnDec_Click(object sender, EventArgs e)
@@ -405,8 +499,6 @@ namespace research_8
             int bin, sum = 0, counter = 0, power;
             if (!decNum && binNum)
             {
-
-
                 bin = int.Parse(txtDisplay.Text);
                 while (bin != 0)
                 {
@@ -438,6 +530,28 @@ namespace research_8
                 }
 
                 txtDisplay.Text = System.Convert.ToString((int)decNumber);
+            }
+
+            decNum = true;
+            hexNum = false;
+            octNum = false;
+            binNum = false;
+
+            if (decNum)
+            {
+                lblShowBase.Text = "Dec";
+            }
+            else if (binNum)
+            {
+                lblShowBase.Text = "Bin";
+            }
+            else if (octNum)
+            {
+                lblShowBase.Text = "Oct";
+            }
+            else if (hexNum)
+            {
+                lblShowBase.Text = "Hex";
             }
         }
 

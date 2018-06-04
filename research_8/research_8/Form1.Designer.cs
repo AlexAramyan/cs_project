@@ -116,6 +116,7 @@
             this.EE = new System.Windows.Forms.Button();
             this.arccos = new System.Windows.Forms.Button();
             this.labelDegToRad = new System.Windows.Forms.Label();
+            this.lblShowBase = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1282,11 +1283,22 @@
             this.labelDegToRad.Size = new System.Drawing.Size(0, 16);
             this.labelDegToRad.TabIndex = 53;
             // 
+            // lblShowBase
+            // 
+            this.lblShowBase.AutoSize = true;
+            this.lblShowBase.BackColor = System.Drawing.SystemColors.Control;
+            this.lblShowBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblShowBase.Location = new System.Drawing.Point(18, 45);
+            this.lblShowBase.Name = "lblShowBase";
+            this.lblShowBase.Size = new System.Drawing.Size(0, 16);
+            this.lblShowBase.TabIndex = 54;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.lblShowBase);
             this.Controls.Add(this.labelDegToRad);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -1447,6 +1459,7 @@
         private System.Windows.Forms.Button arccos;
         private System.Windows.Forms.Button ctg;
         private System.Windows.Forms.Label labelDegToRad;
+        private System.Windows.Forms.Label lblShowBase;
     }
 }
 
